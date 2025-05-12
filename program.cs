@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 class Program
 {
-    private static readonly string ollamaUrl = "http://192.168.30.9:11434/v1/chat/completions";
+    private static sreadonly string ollamaUrl = "http://192.168.30.9:11434/v1/chat/completions";
     private static readonly string modelName = "qwen3:4b";
 
     static async Task Main(string[] args)
