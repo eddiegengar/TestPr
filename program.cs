@@ -36,6 +36,7 @@ def subtract(a, b):
             var responses = await httpClient.PostAsync(ollamaUrl, content);
             responses.EnsureSuccessStatusCode();
 
+            console.WriteLine("Request sent successfully.");
             var result = await responses.Content.ReadAsStringAsync();
             Console.WriteLine("=== Review Response ===");
             Console.WriteLine(result);
